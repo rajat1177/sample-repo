@@ -39,29 +39,4 @@ git push origin main
 Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-Fork the project on GitHub.
-Create a new branch for your feature or bug fix.
-Make your changes and commit them with a meaningful message.
-Push your branch to your forked repository.
-Open a pull request to the original repository, explaining your changes.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Contact
-If you have any questions or suggestions, feel free to contact us at your-email@example.com.
-
-Happy coding!
-
-vbnet
-Copy code
-
-This README provides basic information on getting started with the repository, how to contribute, the license, and contact information. You should customize it to fit the specific details and needs of your own project.
-
-
-
-Was this response better or worse?
-Better
-Worse
-Same
-
 
