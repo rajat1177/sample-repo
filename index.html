@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>new document</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>logo</h1>
+
+        </div>
+        <div class="container">
+            <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>contact</li>
+            <li><button class="button">login</button></li>
+            
+        </ul>
+        </div>
+        
+    </nav>
+    <main><form action="" method="post">
+        <div class="imgcontainer">
+          <img src="images.png" alt="" class="avatar">
+        </div>
+      
+        <div class="container">
+          <label for="name"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="name" required>
+      
+          <label for="pass"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="pass" required>
+      
+          <button type="submit">Login</button>
+         
+        </div>
+      
+        
+      </form></main>
+    <script>
+        var a=document.querySelector('main');
+        var b=document.querySelector('.button');
+        b.addEventListener('click',() => {
+            a.classList.toggle('hello');
+        }
+        
+        );
+        b.addEventListener('click',() => {
+            a.style.display="static";
+        });
+        console.log(b);
+    </script>
+</body>
+</html>

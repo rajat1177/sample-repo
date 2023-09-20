@@ -1,0 +1,137 @@
+body{
+    height:100vh;
+    width:100vw;
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+nav{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:400px;
+    background-color: #ffffffb9;
+    backdrop-filter: blur(10px);
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+
+
+
+.button {
+    position:relative;
+ padding: 5px;
+ margin:0;
+ bottom:2px;
+ padding-left: 12px;
+ padding-right: 12px;
+ border-radius: 10px;
+ margin-left:30px;
+}
+
+
+.button:hover {
+  background-color: rgb(249,250,251);
+  color: rgb(60, 101, 179);
+}
+
+.button:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.button:focus-visible {
+  box-shadow: none;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+    width: 100vw;
+}
+
+form {
+    background-color: #f1f1f1;
+    border: 3px solid #f1f1f1;
+    height: 60vh;
+    width:50vh;
+  }
+  
+
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+
+  button {
+    background-color: #0452aa;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+ 
+  button:hover {
+    opacity: 0.8;
+  }
+  
+
+ 
+ 
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+
+  .container {
+    padding: 16px;
+  }
+
+  span.pass {
+    float: right;
+    padding-top: 16px;
+  }
+  .hello{
+display: none;
+  }
+ 
+  @media screen and (max-width: 1296px) {
+    .logo{
+        margin-top: 10px;
+    }
+    nav {
+        height: fit-content;
+        width: 100vw;
+      flex-direction: column;
+      gap:0px;
+    }
+    .button{
+        margin: 0px;
+    }
+  }
