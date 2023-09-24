@@ -5,8 +5,8 @@ const addEventOnElem = function (elem, type, callback) {
         }
       } else {
         elem.addEventListener(type, callback);
-      }
-  }
+    }
+}
   
 const navbar = document.querySelector("[data-navbar]");
 const navbarLinks = document.querySelectorAll("[data-nav-link]");
@@ -15,10 +15,12 @@ const navToggler = document.querySelector("[data-nav-toggler]");
 const toggleNavbar = function () {
   navbar.classList.toggle("active");
   navToggler.classList.toggle("active");
+
   document.body.classList.toggle("active");
 }
 
 addEventOnElem(navToggler, "click", toggleNavbar);
+addEventOnElem(navbarLinks, "click", toggleNavbar);
 var btc = document.getElementById("bitcoin");
 var ltc = document.getElementById("litecoin");
 var eth = document.getElementById("ethereum");

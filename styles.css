@@ -1,5 +1,5 @@
 
-.netflix-footer {
+.crypto-footer {
   background-color: #111;
   color: #888;
   padding: 20px 0;
@@ -208,6 +208,8 @@ html {
   .nav-toggle-btn .line:not(:last-child) { margin-block-end: 4px; }
 
 .nav-toggle-btn {
+  border-radius: 10px;
+  background-color: #111;
   padding: 8px 5px;
   margin-inline-start: auto;
 }
@@ -604,6 +606,11 @@ ul{
   margin: 30px;
 }
 .app-wrapper{
+  margin-top: 3vh;
   align-items: center;
   justify-content: center;
+}
+.app-content{
+  padding: 5vw;
+  width:100vw;
 }
