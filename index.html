@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
     <header class="header" data-header >
@@ -40,7 +41,7 @@
               </li>
     
               <li class="navbar-item">
-                <a href="#" class="navbar-link" data-nav-link>contact</a>
+                <a href="#foot" class="navbar-link" data-nav-link>contact</a>
               </li>
     
               <!-- <li class="navbar-item">
@@ -57,7 +58,7 @@
             <span class="line line-3"></span>
           </button>
     
-          <a href="#" class="btn btn-outline">Wallet</a>
+          <a href="wallet.html" class="btn btn-outline">Wallet</a>
     
         </div>
       </header>
@@ -72,19 +73,19 @@
               Coin CryptoNest is the easiest, safest, and fastest way to buy & sell crypto asset exchange.
             </p>
 
-            <a href="#" class="btn btn-primary">Get started now</a>
+            <a href="wallet.html" class="btn btn-primary">Get started now</a>
 
           </div>
 
           <figure class="hero-banner">
             <img src="images/hero-banner.png" width="570" height="448" alt="hero banner" class="w-100">
           </figure>
-
+         <div id="price"></div>
         </div>
       </section>
-      <main data-section><div class="main"  >
+      <main data-section><div class="main" >
         <div class="coin-price">
-            <div class="logo"id="price"><img src="https://blogger.googleusercontent.com/img/a/AVvXsEi32rDKQR2Swi7YfHjDzyZUBGEmxTz77OClnm24SZl7kWuls7fsVCIfAObY_JRJIReQnBWZIPSVfDLSqDvqeu4CCXCoNQIoUGK-OSDUGMtDJFxh9vmU6WGajIgXH4CsR_-sXU0qWbyJTJl7N0BSTB8HcAGSpCJ54G1daZPnU6h2oANo2CTGsbHCoaGJHQ" ></div>
+            <div class="logo"><img src="https://blogger.googleusercontent.com/img/a/AVvXsEi32rDKQR2Swi7YfHjDzyZUBGEmxTz77OClnm24SZl7kWuls7fsVCIfAObY_JRJIReQnBWZIPSVfDLSqDvqeu4CCXCoNQIoUGK-OSDUGMtDJFxh9vmU6WGajIgXH4CsR_-sXU0qWbyJTJl7N0BSTB8HcAGSpCJ54G1daZPnU6h2oANo2CTGsbHCoaGJHQ" ></div>
             <div>
                 <h1><span id="bitcoin"></span></h1>
                 <h1>Bitcoin</h1>
@@ -116,7 +117,8 @@
     
 
     </div>
-    <section class="section instruction" id="instruction" aria-label="instruction" data-section>
+    <div id="instruction"></div>
+    <section class="section instruction"  aria-label="instruction" data-section>
         <div class="container">
 
           <h2 class="h2 section-title">How It Work</h2>
@@ -208,7 +210,7 @@
         </div>
       </section>
       <section class="section app" aria-label="app" data-section>
-        <div class="container">
+        <div class="container main-sec">
 
           <div class="app-content">
 
@@ -266,9 +268,36 @@
 
             <span class="span">Scan To Download</span>
           </div>
+         
 
         </div>
-      </section>
+      </section> 
+      <footer class="crypto-footer" id="foot">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.png" height="40px" width="40px" alt="Netflix Logo" class="foot-logo">
+                     <p>CryptoNest</p>
+                </div>
+                <ul class="footer-links">
+                    <li><a href="#">Buy</a></li>
+                    <li><a href="#">Sell</a></li>
+                    <li><a href="#">Market</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+                <div class="footer-social">
+                  <div><i class="fa-brands fa-facebook"></i> 
+                  <p>facebook</p></div>
+                  
+                  <div><i class="fa-brands fa-twitter"></i> 
+                    <p>twitter</p></div>
+                    <div><i class="fa-brands fa-linkedin"></i> 
+                      <p>linkedin</p></div>
+                </div>
+            </div>
+        </div>
+    </footer>
       <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
       <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
       <script src="script.js"></script>

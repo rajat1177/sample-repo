@@ -1,3 +1,58 @@
+
+.crypto-footer {
+  background-color: #111;
+  color: #888;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.footer-links li {
+  margin-right: 20px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #888;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+.footer-social a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #888;
+  transition: color 0.3s;
+}
+
+.footer-social a:hover {
+  color: white;
+}
 :root {
     /* color */
     --cadet-blue-crayola: hsl(227, 13%, 73%);
@@ -153,6 +208,8 @@ html {
   .nav-toggle-btn .line:not(:last-child) { margin-block-end: 4px; }
 
 .nav-toggle-btn {
+  border-radius: 10px;
+  background-color: #111;
   padding: 8px 5px;
   margin-inline-start: auto;
 }
@@ -497,4 +554,63 @@ section{
         gap: 30vw; */
         
     }
+}
+
+
+.foot-container{
+	max-width: 1170px;
+	margin:auto;
+}
+.foot-row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer-social{
+  display: flex;align-items: center;
+  justify-content: center;
+  gap: 2vw;
+}
+.footer-social >div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:3px;
+  
+}
+.footer-logo{
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+@media screen and (max-width:1005px) {
+  .footer-content{
+    display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  }
+}
+.title-wrapper{
+  display: flex;
+  align-items: center;
+  gap:10px ;
+}
+.container.main-sec{
+  margin: 30px;
+}
+.app-wrapper{
+  margin-top: 3vh;
+  align-items: center;
+  justify-content: center;
+}
+.app-content{
+  padding: 5vw;
+  width:100vw;
 }

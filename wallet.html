@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>e-Wallet | Kanjika Tech</title>
+  </head>
+  <body>
+    
+    <div class="container ewallet">
+      <header class="green">
+        <div class="ewalletLogo">
+            <img src="images/logo.png" alt="">
+          <h1>CryptoNest</h1>
+        </div>
+        <div class="balance">
+          <div class="balance__heading">
+            <p>Total balance</p>
+          </div>
+          <div class="balance__amount">
+            <p>0</p>
+          </div>
+        </div>
+
+        <div class="income-expense">
+          <div class="income">
+            <div class="income__amount">
+              <p>₹ 0</p>
+            </div>
+            <div class="income__heading">
+              <p>Incomes</p>
+            </div>
+          </div>
+          <div class="expense">
+            <div class="expense__amount">
+              <p>₹ 0</p>
+            </div>
+            <div class="expense__heading">
+              <p>Expenses</p>
+            </div>
+          </div>
+        </div>
+      </header> <main><div class="add">
+        <div class="wrap" style="width:100vw;"><form id="ewallet-form"> 
+          <div class="add__container"><div id="add">
+             <select class="add__type">
+              <option value="+" selected>+</option>
+              <option value="-">-</option>
+            </select>
+            <input
+              type="text"
+              class="add__description"
+              placeholder="Add description of crypto-currency"
+            />
+          </div>
+            <div class="wrapper"> <input type="number" class="add__value" placeholder="Value" />
+            <button class="add__btn">
+              <ion-icon name="checkmark-circle-outline"></ion-icon>
+            </button></div>
+           
+          </div>
+        </form></div>
+        
+     
+    </div></main>
+       </div>
+
+      <div class="collection">
+      </div>
+      <footer class="crypto-footer" id="foot">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.png" height="40px" width="40px" alt="Netflix Logo" class="foot-logo">
+                     <p>CryptoNest</p>
+                </div>
+                <ul class="footer-links">
+                    <li><a href="#">Buy</a></li>
+                    <li><a href="#">Sell</a></li>
+                    <li><a href="#">Market</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+                <div class="footer-social">
+                  <div><i class="fa-brands fa-facebook"></i> 
+                  <p>facebook</p></div>
+                  
+                  <div><i class="fa-brands fa-twitter"></i> 
+                    <p>twitter</p></div>
+                    <div><i class="fa-brands fa-linkedin"></i> 
+                      <p>linkedin</p></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
